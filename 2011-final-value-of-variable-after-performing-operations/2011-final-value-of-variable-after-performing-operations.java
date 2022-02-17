@@ -6,7 +6,7 @@ class Solution {
                 x++;
             }
         
-            else {
+            else if (operations[i].charAt(1) == '-' || operations[i].charAt(2) == '-') {
                 x--;
             }
         }
